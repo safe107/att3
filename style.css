@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#parte1 {
+    padding: 200px;
+    background-image: url(assets/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+#texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#texts01 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #C0C4CE;
+}
+
+#texts02 {
+    font-family: 'Asap', sans-serif;
+    font-size: 56px;
+    color: #E2E4E9;
+}
+
+#texts03 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #878EA1;
+
+}
+
+#tags {
+    display: flex;
+    gap: 20px;
+    padding-top: 70px;
+    justify-content: center;
+}
+
+#parte2 {
+    background-color: #1A1B1F;
+    padding: 100px;
+}
+
+.header2 {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.texts2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.headerH1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #E2E4E9;
+}
+
+.headerSpan {
+    font-family: 'Asap', sans-serif;
+    font-size: 24px;
+    color: #E3646E;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.card {
+    height: 330px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #292C34;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+
+}
+
+.card>img {
+    height: auto;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.card>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardh1 {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    color: #E2E4E9;
+}
+
+.cardspan {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    color: #C0C4CE;
+}
+
+#parte3 {
+    background-color: #0D0E11;
+    padding: 100px;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    height: 130px;
+    width: 300px;
+    ;
+    padding: 15px;
+    border: 4px solid #16181D;
+    border-radius: 15px;
+}
+
+#parte4 {
+    padding: 200px;
+    background-image: url(assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#parte4>header {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#parte4-header-span {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #BB72E9;
+}
+
+#parte4-header-span2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #878EA1;
+}
+
+#links {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.SocialButton {
+    display: flex;
+    background-color: #292C34;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 20px;
+    height: 60px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SocialButton-h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #C0C4CE;
+}
+
+.SocialButton>div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
